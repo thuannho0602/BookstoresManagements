@@ -9,8 +9,8 @@ namespace BookstoresManagements.API.Controllers
     [ApiController]
     public class PublishersController : BaseController
     {
-        private readonly IPublisherService _publisherService;
-        public PublishersController(IPublisherService publisherService)
+        private readonly IPublisherServices _publisherService;
+        public PublishersController(IPublisherServices publisherService)
         {
             _publisherService = publisherService;
         }
