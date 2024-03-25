@@ -16,5 +16,6 @@ namespace BookstoresManagements.DataAccess
         public virtual DbSet<Publisher> Publishers { get; set; }
         public virtual DbSet<Book> Books { get; set; }
         public virtual DbSet<ImportVoucher> ImportVouchers { get; set; }
+        public virtual DbSet<Invoice> Invoices { get; set; }
     }
 }
