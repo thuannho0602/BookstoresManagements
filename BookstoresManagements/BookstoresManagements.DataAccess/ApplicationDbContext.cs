@@ -12,5 +12,6 @@ namespace BookstoresManagements.DataAccess
 
         }
         public virtual DbSet<Genre> Genres { get; set; }
+        public virtual DbSet<Author> Authors { get; set; }
     }
 }

@@ -14,6 +14,7 @@ namespace BookstoresManagements.Services
         public static IServiceCollection AddServiceConfigure(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddScoped<IGenreSevices, GenreServices>();
+            services.AddScoped<IAuthorServices, AuthorServices>();
             return services;
         }
     }
