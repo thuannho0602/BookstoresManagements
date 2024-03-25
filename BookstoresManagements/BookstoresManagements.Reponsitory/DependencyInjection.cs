@@ -17,6 +17,7 @@ namespace BookstoresManagements.Reponsitory
             services.AddScoped<IAuthorReponsitory, AuthorReponsitory>();
             services.AddScoped<IPublisherReponsitory, PublisherReponsitory>();
             services.AddScoped<IBookReponsitory, BookReponsitory>();
+            services.AddScoped<IImportVoucherReponsitory, ImportVoucherReponsitory>();
             return services;
         }
     }
