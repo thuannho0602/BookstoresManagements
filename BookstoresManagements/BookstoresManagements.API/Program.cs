@@ -8,6 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 // Add ConnectionStrings
+
 builder.Services.AddControllers();
 var configuration = builder.Configuration;
 builder.Services.AddDbContext<ApplicationDbContext>(options =>

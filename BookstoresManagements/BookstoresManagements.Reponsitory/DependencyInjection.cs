@@ -14,6 +14,7 @@ namespace BookstoresManagements.Reponsitory
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddScoped<IGenreReponsitory, GenreReponsitory>();
+            services.AddScoped<IAuthorReponsitory, AuthorReponsitory>();
             return services;
         }
     }
