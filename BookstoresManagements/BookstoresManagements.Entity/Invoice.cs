@@ -7,13 +7,11 @@ using System.Threading.Tasks;
 
 namespace BookstoresManagements.Entity
 {
-    [Table("ImportVoucher")] // Phiếu Nhập
-    public class ImportVoucher
+    [Table("Invoice")] // Hóa Đơn
+    public class Invoice
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
-        public DateTime ImportDate {  get; set; }
-        public int? PublisherId { get; set; }
-        public Publisher Publisher { get; set; }
+        public int id { get; set; }
+        public DateTime? SalesDate { get; set; }
     }
 }
