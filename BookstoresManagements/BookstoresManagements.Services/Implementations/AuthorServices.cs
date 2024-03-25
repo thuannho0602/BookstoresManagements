@@ -85,8 +85,8 @@ namespace BookstoresManagements.Services.Implementations
                     var author = new Author
                     {
                         Id = id,
-                        NameAuthor = authorId.NameAuthor,
-                        Contact = authorId.Contact,
+                        NameAuthor = authorUpdateRequest.NameAuthor,
+                        Contact = authorUpdateRequest.Contact,
                     };
                     _authorReponsitory.Update(author);
                     _authorReponsitory.SaveChanges();

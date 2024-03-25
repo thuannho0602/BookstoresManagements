@@ -8,15 +8,18 @@ using System.Threading.Tasks;
 
 namespace BookstoresManagements.Entity
 {
-    [Table("Author")] // Tác giả
-    public class Author
+    [Table("Publisher")]// Nhà Xuất Bản
+    public class Publisher
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         [StringLength(150)]
-        public string NameAuthor { get; set; }
-        [StringLength(500)]
-        public string Contact {  get; set; }
-
+        public string NamePublisher {  get; set; }
+        [StringLength(250)]
+        public string Address {  get; set; }
+        [StringLength(15)]
+        public string PhoneNumber { get; set; }
+        [StringLength(50)]
+        public string Email { get; set; }
     }
 }
