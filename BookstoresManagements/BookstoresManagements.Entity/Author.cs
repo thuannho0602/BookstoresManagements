@@ -17,6 +17,7 @@ namespace BookstoresManagements.Entity
         public string NameAuthor { get; set; }
         [StringLength(500)]
         public string Contact {  get; set; }
+        public ICollection<Book> Books { get; set; }
 
     }
 }

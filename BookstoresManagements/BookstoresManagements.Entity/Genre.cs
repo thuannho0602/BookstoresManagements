@@ -10,6 +10,7 @@ namespace BookstoresManagements.Entity
         public int Id { get; set; }
         [StringLength(150)]
         public string NameGenre {  get; set; }
+        public ICollection<Book> Books { get; set; }
 
     }
 }

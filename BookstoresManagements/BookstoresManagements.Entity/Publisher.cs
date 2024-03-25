@@ -21,5 +21,6 @@ namespace BookstoresManagements.Entity
         public string PhoneNumber { get; set; }
         [StringLength(50)]
         public string Email { get; set; }
+        public ICollection<Book> Books { get; set; }
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BookstoresManagements.Services
 {
-    public interface IPublisherService
+    public interface IPublisherServices
     {
         Task<List<PublisherGetResponse>> GetAll();
         Task<PublisherGetResponse>GetById(int id);

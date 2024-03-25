@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace BookstoresManagements.Services.Implementations
 {
-    public class PublisherService : IPublisherService
+    public class PublisherServices : IPublisherServices
     {
         private readonly IPublisherReponsitory _publisherReponsitory;
-        public PublisherService(IPublisherReponsitory publisherReponsitory)
+        public PublisherServices(IPublisherReponsitory publisherReponsitory)
         {
             _publisherReponsitory = publisherReponsitory;
         }
