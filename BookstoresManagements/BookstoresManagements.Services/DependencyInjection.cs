@@ -15,6 +15,7 @@ namespace BookstoresManagements.Services
         {
             services.AddScoped<IGenreSevices, GenreServices>();
             services.AddScoped<IAuthorServices, AuthorServices>();
+            services.AddScoped<IPublisherService, PublisherService>();
             return services;
         }
     }

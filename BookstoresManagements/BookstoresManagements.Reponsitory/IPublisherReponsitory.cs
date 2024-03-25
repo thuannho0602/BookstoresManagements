@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BookstoresManagements.Reponsitory
 {
-    public interface IAuthorReponsitory:IRepositoryBase<Author>
+    public interface IPublisherReponsitory:IRepositoryBase<Publisher>
     {
     }
 }
