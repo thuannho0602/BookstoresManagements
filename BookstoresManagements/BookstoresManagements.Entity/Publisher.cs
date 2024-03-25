@@ -22,5 +22,6 @@ namespace BookstoresManagements.Entity
         [StringLength(50)]
         public string Email { get; set; }
         public ICollection<Book> Books { get; set; }
+        public ICollection<ImportVoucher> ImportVouchers { get; set; }
     }
 }
