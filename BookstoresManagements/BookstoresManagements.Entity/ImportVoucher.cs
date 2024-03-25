@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BookstoresManagements.Entity
 {
-    [Table("ImportVoucher")]
+    [Table("ImportVoucher")] // Phiếu Nhập
     public class ImportVoucher
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
