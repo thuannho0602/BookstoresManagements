@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BookstoresManagements.Entity
 {
-    [Table("Author")]
+    [Table("Author")] // Tác giả
     public class Author
     {
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
